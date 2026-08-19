@@ -1,7 +1,7 @@
 {
   "name": "claude-game-studio-universal",
-  "version": "1.0.0",
-  "description": "Universal AI game-development studio for Claude Desktop and Cowork. Provides professional game-design, programming, art, narrative, production, and QA workflows for Godot, Unity, and Unreal projects.",
+  "version": "1.2.0",
+  "description": "Universal AI game-development studio with autonomous production orchestration, specialist sub-agents, tool-aware execution, model routing, implementation loops, and evidence-based completion gates.",
   "author": {
     "name": "Claude Game Studio community remix"
   },

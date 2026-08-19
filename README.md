@@ -1,23 +1,21 @@
-# Claude Game Studio Marketplace
+# Claude Game Studio Marketplace v1.2
 
 Universal AI game-development studio for Claude Desktop and Cowork.
 
-## Included plugin
+## v1.2 production upgrade
 
-- `game-studio` — the universal game-development studio with agents, skills, workflows, review gates, and model-routing guidance.
+Game Studio emphasizes **end-to-end delivery rather than plan-only assistance**:
 
-## Installation
+- Studio Coordinator / Executive Producer owns the outcome.
+- Studio Autopilot drives plan → delegate → build → integrate → test → fix → verify.
+- Completion Gate prevents premature "complete" claims.
+- Tool Utilization Audit checks what the runtime actually exposes and uses relevant capabilities.
+- Model routing assigns meaningful work to Opus, Sonnet, and Haiku when those tiers are actually available.
+- Sub-agent orchestration uses all relevant specialists and parallelizes independent work when supported.
+- Visual production retains Art Director → Blender → Technical Art → Engine → Visual QA loops.
 
-Add this repository as a Claude plugin marketplace. Then install the `game-studio` plugin from the marketplace.
+## Runtime reality
 
-## Engines
+The plugin can define orchestration policy, but Claude Desktop/Cowork controls which models, sub-agent execution mechanisms, and tools are actually available in a session. The studio never claims a model switched or a sub-agent ran unless the runtime provides evidence.
 
-The studio is designed to be engine-agnostic, with workflows for Godot, Unity, and Unreal Engine.
-
-## Model strategy
-
-- Opus: directors, architecture, complex reasoning, major reviews
-- Sonnet: primary implementation and specialist development
-- Haiku: lightweight checks, summaries, and repetitive tasks
-
-The runtime ultimately controls which model is available to a given plugin/agent workflow; the routing files describe the intended responsibility split.
+For long-running multi-step implementation, Cowork is the preferred surface because Anthropic documents Cowork as supporting task decomposition, parallel workstreams, sub-agent coordination, long-running tasks, and local file access on Desktop.

@@ -10,8 +10,8 @@
     {
       "name": "game-studio",
       "source": "./plugins/game-studio",
-      "description": "Universal game-development studio with director, specialist, production, QA, and engine workflows.",
-      "version": "1.0.0"
+      "description": "Universal game-development studio with Art Direction, Blender 3D production, Technical Art, engine workflows, and visual QA.",
+      "version": "1.1.0"
     }
   ]
 }
